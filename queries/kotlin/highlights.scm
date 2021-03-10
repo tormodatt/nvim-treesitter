@@ -69,10 +69,10 @@
 ;; Types
 (type_identifier) @type
 
-;; Annotations
-(annotation (single_annotation) @attribute)
-(single_annotation (user_type (type_identifier) @attribute))
-(single_annotation (constructor_invocation (user_type (type_identifier) @attribute)))
+;; TODO Annotations
+; (annotation (single_annotation) @attribute)
+; (single_annotation (user_type (type_identifier) @attribute))
+; (single_annotation (constructor_invocation (user_type (type_identifier) @attribute)))
 
 
 ;; it
